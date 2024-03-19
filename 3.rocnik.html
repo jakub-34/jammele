@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Učebnica elektroniky pre stredné školy">
+    <title>ELE - 3. ročník</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="2.rocnik.html">2. ročník</a>
+                    <div class = "sub_menu">
+                        <ul>
+                            <li><a href="zakladne_pojmy.html">Základné pojmy</a></li>
+                            <li><a href="riesenie_elektronickych_obvodov.html">Riešenie elektronických obvodov</a></li>
+                            <li><a href="linearne_suciastky_elektronickych_obvodov.html">Lineárne súčiastky elektronických obvodov</a></li>
+                            <li><a href="nelinearne_polovodicove_suciastky.html">Nelineárne polovodičové súčiastky</a></li>
+                            <li><a href="viacvrstvove_spinacie_prvky.html">Viacvrstvové spínacie prvky</a></li>
+                            <li><a href="polovodicove_suciastky_bez_pn_priechodu.html">Polovodičové súčiastky bez PN priechodu</a></li>
+                            <li><a href="optoelektronika.html">Optoelektronika</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="3.rocnik.html">3. ročník</a>
+                    <div class = "sub_menu">
+                        <ul>
+                            <li><a href="zosilnovace.html">Zosilňovače</a></li>
+                            <li><a href="operacne_zosilnovace.html">Operačné zosilňovače</a></li>
+                            <li><a href="logicke_obvody.html">Logické obvody</a></li>
+                            <li><a href="harmonicke_oscilatory.html">Harmonické oscilátory</a></li>
+                            <li><a href="impulzne_obvody.html">Impulzné obvody</a></li>
+                            <li><a href="napajacie_zdroje.html">Napájacie zdroje</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="right-side">
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper-chap_3">
+
+                <a href="zosilnovace.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/boats.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_tranzistor.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Zosilňovače
+                        </div>
+                    </div>
+                </div></a>
+                <a href="operacne_zosilnovace.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/hills.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_operacny_zosilnovac.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Operačné zosilňovače
+                        </div>
+                    </div>
+                </div></a>
+                <a href="logicke_obvody.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/mountain.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_0_1.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Logické obvody
+                        </div>
+                    </div>
+                </div></a>
+                <a href="harmonicke_oscilatory.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/nature.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_harmonicke_oscilatory.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Harmonické oscilátory
+                        </div>
+                    </div>
+                </div></a>
+                <a href="impulzne_obvody.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/river.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_555.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Impulzné obvody
+                        </div>
+                    </div>
+                </div></a>
+                <a href="napajacie_zdroje.html"><div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background-chap" style = "background-image: url(images/kapitoly_3/trees.jpg);"></div>
+                    <div class="img-text-wrapper-chap">
+                        <div class="logo-wrapper">
+                            <img src = "images/logos/logos_3/logo_napajacie_zdroje.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Napájacie zdroje
+                        </div>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken')
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken')
+        })
+    })
+</script>
+</html>
